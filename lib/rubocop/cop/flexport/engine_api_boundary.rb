@@ -174,7 +174,7 @@ module RuboCop
       #     # (No direct associations to models in API-protected engines.)
       #   end
       #
-      class EngineApiBoundary < Cop
+      class EngineApiBoundary < Base
         include EngineApi
         include EngineNodeContext
         include FactoryBotUsage
